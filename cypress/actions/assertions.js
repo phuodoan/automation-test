@@ -7,5 +7,6 @@ Cypress.Commands.add('verifySignUpSuccess',()=>{
 })
 
 Cypress.Commands.add('verifySignInFail', (message)=>{
+    cy.get(signUp.pageHome).should('not.exist')
    cy.get(signIn.lblErrorMessage).should('include.text',message) 
 })

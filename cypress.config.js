@@ -9,6 +9,8 @@ module.exports = defineConfig({
     supportFile: 'cypress/support/e2e.js',
     baseUrl: 'https://react-redux.realworld.io',
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
+    videosFolder: 'cypress/reports/final/videos',
+    screenshotsFolder: 'cypress/reports/final/screenshots',
     // baseUrl: "https://google.com",
     setupNodeEvents(on, config) {
       // require('cypress-mochawesome-reporter/plugin')(on);

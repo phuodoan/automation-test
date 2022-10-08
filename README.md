@@ -27,3 +27,4 @@ This project is using the Cypress framework to demo for the assessment.
 
 - The project is written in javascript using ABT pattern (Action Based Testing).
 - Please use `Visual Studio Code` or `Atom` to review the code to make sure it correct style.
+- Please make sure browsers need to be available on your system
