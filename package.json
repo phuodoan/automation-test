@@ -1,0 +1,12 @@
+{
+    "devDependencies": {
+        "cypress": "^10.3.0"
+    },
+    "scripts": {
+        "cypress:open": "cypress open",
+        "cy:run:chrome": "cypress run --browser chrome",
+        "cy:run:firefox": "cypress run --browser firefox",
+        "cy:run:edge": "cypress run --browser edge",
+        "cy:run:electron": "cypress run"
+    }
+}
