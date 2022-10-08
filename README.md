@@ -9,6 +9,8 @@ This project is using the Cypress framework to demo for the assessment.
 - `npm run cypress:open` to launch to test on UI by using testRunner
 - `npm run cy:browser:chrome` to run tests in chrome headlessly
 - `npm run cy:browser:firefox` to run tests in firefox headlessly
+- `npm run cy:browser:edge` to run tests in MS edge headlessly
+- `npm run cy:browser:electron` to run tests in electron headlessly
 
 ## Project Structure
 ```
